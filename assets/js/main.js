@@ -17,9 +17,10 @@
 		initSliders();
 		initGallery();
 		initAnimation();
-		initVideoBg();
+
 		initKenburns();
 		initCountdown();
+		initVideoBg();
 
 		if ( document.getElementById('shop-slider-range') ) {
 			initRangeSlider();
@@ -54,12 +55,12 @@
 /* --------------------------------------------------
 	Navigation | Navbar
 -------------------------------------------------- */
-	
+
 	function initNavbar(){
 
 		// Sticky Nav & Transparent Background
 		$(window).scroll(function(){
-			
+
 			if ($(window).scrollTop() > 20) {
 				$('nav').removeClass('navbar-trans', 300);
 				$('nav').removeClass('navbar-trans-dark');
@@ -82,7 +83,7 @@
 		// Nav on mobile screens
 		$(window).resize(function() {
 	        if ($(window).width() <= 1259) {
-				$('nav').addClass('mobile-nav');		        
+				$('nav').addClass('mobile-nav');
 		    } else {
 		    	$('nav').removeClass('mobile-nav');
 		    }
@@ -99,7 +100,7 @@
     		// Remove dropdown open on hover for small screens
     		if ($('nav').hasClass('mobile-nav')) {
 
-    			$('.dropdown-toggle').on('mouseover', function(e){    
+    			$('.dropdown-toggle').on('mouseover', function(e){
     			        e.preventDefault();
 
     			        $('.dropdown').removeClass('open');
@@ -113,7 +114,7 @@
 
     		if (!$('.nav a').hasClass('dropdown-toggle')) {
 
-    			$('.nav a').on('click', function(){ 
+    			$('.nav a').on('click', function(){
 			        if($('.navbar-toggle').css('display') !='none'){
 			            $(".navbar-toggle").trigger( "click" );
 			        }
@@ -143,7 +144,7 @@
 
 		$('#page-top').localScroll({
 			easing: 'easeInOutExpo'
-		});	
+		});
 	} // initScroller
 
 
@@ -153,7 +154,7 @@
 	Parallax
 -------------------------------------------------- */
 
-	
+
 	function initParallax () {
 
 		var isSafari = /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor);
@@ -167,7 +168,7 @@
 			$(".testimonials-parallaxx").parallax("50%", 0.4);
 			$(".twitter-slider").parallax("50%", 0.4);
 			$(".login-2").parallax("50%", 0.2);
-		}		
+		}
 	}
 
 
@@ -177,7 +178,7 @@
 -------------------------------------------------- */
 
 	function initCountCirc() {
-		
+
 		var hasCircles = $('#skillsCircles').hasClass('circles-counters');
 
 		if (hasCircles) {
@@ -190,7 +191,7 @@
 					  useEasing : true,
 					  separator : ''
 					};
-					
+
 					$('.chart').easyPieChart({
 						size: '150',
 						lineWidth: 2,
@@ -201,7 +202,7 @@
 					    easing: 'easeOutBack',
 					    animate: {
 					    	duration: 1600,
-					    	enabled: true 
+					    	enabled: true
 					    }
 					});
 					// init only once
@@ -217,7 +218,7 @@
 
 
 	function initCountCircMin() {
-		
+
 		var hasCircles = $('#skillsCirclesMin').hasClass('circles-counters-dark-bg');
 
 		if (hasCircles) {
@@ -230,7 +231,7 @@
 					  useEasing : true,
 					  separator : ''
 					};
-					
+
 					$('.chart').easyPieChart({
 						size: '150',
 						lineWidth: 2,
@@ -241,7 +242,7 @@
 					    easing: 'easeOutBack',
 					    animate: {
 					    	duration: 1600,
-					    	enabled: true 
+					    	enabled: true
 					    }
 					});
 					// init only once
@@ -273,7 +274,7 @@
 
 			    	var options = {
 						useEasing : true,
-						useGrouping : true, 
+						useGrouping : true,
 						separator : ','
 					};
 					// Counter 1
@@ -295,7 +296,7 @@
 			});
 
 		}
-		
+
 
 	} // initCountNbr
 
@@ -334,7 +335,7 @@
 			});
 
 		}
-		
+
 
 	} // initCountMin
 
@@ -343,7 +344,7 @@
 /* --------------------------------------------------
 	Sliders
 -------------------------------------------------- */
-	
+
 	function initSliders() {
 
 		// Features Slider
@@ -543,7 +544,7 @@
 /* --------------------------------------------------
 	Portfolio
 -------------------------------------------------- */
-	
+
 	function initPortfolio () {
 
 		// Filters
@@ -554,10 +555,10 @@
 			  $(this).parent().addClass('active');
 		});
 
-		
+
 		// Full Width Gallery (3 columns)
 		function pfolio3colFW () {
-			
+
 			var $container = $('#pfolio');
 			// init
 			$container.isotope({
@@ -575,7 +576,7 @@
 
 
 		function pfolioMasonry () {
-			
+
 			var $container = $('.pfolio-items');
 			// init
 			$container.isotope({
@@ -585,7 +586,7 @@
 			    layoutMode: 'packery',
 			    masonry: {
 			      columnWidth: '.grid-sizer'
-			    }				
+			    }
 			});
 
 			// Filter items
@@ -621,7 +622,7 @@
 				    enabled: true
 				  }
 			});
-			
+
 		}
 
 
@@ -645,7 +646,7 @@
 		if (hasVideoPopup) {
 
 			$('.popup-video').magnificPopup({
-	          	disableOn: 700, 
+	          	disableOn: 700,
 	         	type: 'iframe',
 	          	mainClass: 'mfp-fade',
 	          	removalDelay: 160,
@@ -675,7 +676,7 @@
 				percentPosition: true
 			});
 	}
-	
+
 
 
 
@@ -702,7 +703,7 @@
 -------------------------------------------------- */
 
 	function initAnimation () {
-		
+
 		new WOW().init();
 
 	}
@@ -722,10 +723,11 @@
 
 		if (hasBgVideo || hasFwBgVideo || hasSecBgVideo) {
 
-			$('.player').YTPlayer();
+			// Don't Need this Call?
+			//$('.player').YTPlayer();
 
 		}
-		
+
 
 	}
 
@@ -735,22 +737,23 @@
 	Ken Burns Slider
 -------------------------------------------------- */
 	function initKenburns () {
-		
+
 		var hasKenburns = $('.kenburn-hero')[0];
 
 		if (hasKenburns) {
 			var w_height = $(window).height();
 			var w_width = $(window).width();
 
+console.log("calling all placeholders");
 			$('.kenburns').attr('width', w_width);
 			$('.kenburns').attr('height', w_height);
 			$('.kenburns').kenburns({
-				images: ['http://placehold.it/2440x1578',
-						'http://placehold.it/2440x1578/999/eee',
-						'http://placehold.it/2440x1578/ccc/111'
+				images: ['https://via.placeholder.com/2440x1578',
+						'https://via.placeholder.com/2440x1578/999/eee',
+						'https://via.placeholder.com/2440x1578/ccc/111'
 						],
 				frames_per_second: 30,
-				display_time: 5000,
+				display_time: 1000,
 				fade_time: 1000,
 				zoom: 1.1,
 				background_color:'#000000'
@@ -808,7 +811,7 @@
 
 
 /* --------------------------------------------------
-	Contact Form JS Validation & AJAX call 
+	Contact Form JS Validation & AJAX call
 -------------------------------------------------- */
 $(function() {
 

@@ -6,11 +6,11 @@
 
 /* ---- 12.1 Testimonial - 1 Column Slider ---- */
 .testimonials-parallax {
-	background: url(http://placehold.it/2440x1578);
+	background: url(https://via.placeholder.com/2440x1578);
 	background-size: cover;
 	background-position: 50%;
 	background-attachment: fixed;
-	
+
 
 	.bg-overlay {
 		width: 100%;
@@ -38,7 +38,7 @@
 			font-size: 1.4em;
 			line-height: 1.6em;
 			color: $light;
-			
+
 			.t-type {
 				display: block;
 				padding-top: 25px;
@@ -125,13 +125,13 @@
 } // .testimonials-parallax
 
 .testimonials-bg-2 {
-	background: url(http://placehold.it/2440x1578);
+	background: url(https://via.placeholder.com/2440x1578);
 	background-size: cover;
 	background-position: 50%;
 	background-attachment: fixed;
 
 	.bg-overlay {
-		background: rgba(17,17,17, .65);
+background: rgba(0,0,0,1);
 	}
 }
 
@@ -143,8 +143,8 @@
 
 
 /* ---- 12.2 Testimonials - 3 Columns Cards ---- */
-.testimonials-3col { 
-	
+.testimonials-3col {
+
 	.t-item {
 		padding: 40px 50px 50px 50px;
 		border-top: 1px solid $lighter;
@@ -196,7 +196,7 @@
 				&:before {
 					content: none;
 				}
-				
+
 				cite {
 					@extend h4;
 					font-family: $alt-heading-font;
@@ -224,10 +224,10 @@
 		li {
 
 			a {
-				
+
 				img {
 					margin: auto;
-				}			
+				}
 			}
 		}
 	}
@@ -237,7 +237,7 @@
 
 /* ---- 12.3 Clients List ---- */
 .clients-list-parallax {
-	background: url(http://placehold.it/2440x1578);
+	background: url(https://via.placeholder.com/2440x1578);
 	background-size: cover;
 	background-attachment: fixed;
 

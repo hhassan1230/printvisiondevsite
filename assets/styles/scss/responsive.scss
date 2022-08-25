@@ -67,7 +67,7 @@
 				&:focus {
 					background: none;
 				}
-				
+
 				&:hover {
 					background: none;
 
@@ -94,7 +94,7 @@
 			.navbar-nav {
 				padding-left: 15px;
 				padding-right: 15px;
-				
+
 				.dropdown {
 
 					.dropdown-menu {
@@ -142,7 +142,7 @@
 		.navbar-header {
 
 			.navbar-toggle {
-				
+
 				&:hover {
 
 					span {
@@ -233,7 +233,7 @@
 
 		.to-the-top {
 			float: none !important;
-		}	
+		}
 	} // .copyright
 
 	.footer-litle {
@@ -279,7 +279,7 @@
 	} // .footer-widgets
 
 	.footer-contact {
-		
+
 		.contact-info {
 
 			address {
@@ -314,7 +314,7 @@
 			}
 		}
 	}
-} // @media (max-width: $screen-sm) 
+} // @media (max-width: $screen-sm)
 
 
 
@@ -327,7 +327,7 @@
 			height: auto;
 			padding-bottom: $ws-s;
 			margin: 0 auto $ws-s auto;
-			
+
 			img {
 				display: block;
 				float: none;
@@ -343,7 +343,7 @@
 	} // .ft-cards-2
 
 	.ft-boxed-hover {
-		
+
 		ul {
 
 			li {
@@ -360,7 +360,7 @@
 	} // .ft-boxed-hover
 
 	.ft-tabs {
-		
+
 		.tabs-list {
 
 			li {
@@ -388,7 +388,7 @@
 				background-size: 155%;
 			}
 		}
-		
+
 		.ft-1,
 		.ft-2 {
 			background-size: 150%;
@@ -398,7 +398,7 @@
 
 @media (max-width: $screen-md) {
 	.ft-boxed-hover {
-		
+
 		ul {
 
 			li {
@@ -412,7 +412,7 @@
 	} // .ft-boxed-hover
 
 	.ft-tabs {
-		
+
 		.tab-content {
 			height: auto;
 
@@ -473,7 +473,7 @@
 			height: 500px;
 			text-align: center;
 		}
-	} // .ft-big-img-right 
+	} // .ft-big-img-right
 
 	.ft-big-img-left {
 		padding-left: 25px;
@@ -495,12 +495,12 @@
 			height: 550px;
 			text-align: center;
 		}
-	} // .ft-big-img-right 
+	} // .ft-big-img-right
 } // @media (max-width: $screen-md)
 
 @media (max-width: $screen-sm) {
 	.ft-boxed-hover {
-		
+
 		ul {
 
 			li {
@@ -517,7 +517,7 @@
 	} // .ft-boxed-hover
 
 	.ft-tabs {
-		
+
 		.tabs-list {
 
 			li {
@@ -550,7 +550,7 @@
 				background-size: 210%;
 			}
 		}
-		
+
 		.ft-1,
 		.ft-2 {
 			background-size: 200%;
@@ -563,7 +563,7 @@
 /* ---- CTA - Call to Action ---- */
 @media (max-width: $screen-md) {
 	.cta-newsletter {
-		
+
 		.cta-wrapper {
 
 			input[type="email"] {
@@ -575,7 +575,7 @@
 
 @media (max-width: $screen-sm) {
 	.cta-newsletter {
-		
+
 		.cta-wrapper {
 
 			input[type="email"] {
@@ -598,7 +598,7 @@
 	}
 
 	.cta-newsletter {
-		
+
 		.cta-wrapper {
 
 			input[type="email"] {
@@ -731,7 +731,7 @@
 			&:hover {
 				transform: translateY(-10px);
 				box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
-				
+
 				.t-image {
 
 					.t-description {
@@ -805,7 +805,7 @@
 			&:hover {
 				transform: translateY(-10px);
 				box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
-				
+
 				.t-image {
 
 					.t-description {
@@ -995,7 +995,7 @@
 	.blog-post-comments {
 
 		.bp-comment {
-			
+
 			.comment-info {
 
 				.comment-name,
@@ -1093,7 +1093,7 @@
 
 @media (max-width: $screen-sm) {
 	.contact-1 {
-		
+
 		.contact-wrapper {
 
 			.contact-info-wrapper {
@@ -1313,7 +1313,7 @@
 	}
 
 	.fs-slider-hero {
-		
+
 		.fs-slide-1,
 		.fs-slide-2,  {
 
@@ -1373,7 +1373,7 @@
 	} // .landing-hero
 
 	.fw-slider-hero {
-		
+
 		.fw-slide-1,
 		.fw-slide-3 {
 
@@ -1429,7 +1429,7 @@
 	} // .main-demo-hero
 
 	.fs-slider-hero {
-		
+
 		.fs-slide-1,
 		.fs-slide-2,  {
 
@@ -1561,7 +1561,7 @@
 	.app-hero {
 
 		.hero-text {
-			
+
 			.hero-lead {
 				font-size: 2.5em;
 				letter-spacing: 5px;
@@ -1580,12 +1580,12 @@
 
 			.btn {
 				margin-bottom: 15px;
-			}	
+			}
 		}
 	} // .app-hero
 
 	.web-app-hero {
-		
+
 		.hero-content-wrapper {
 
 			.hero-content {
@@ -1640,7 +1640,7 @@
 	}
 
 	.fs-slider-hero {
-		
+
 		.fs-slide-1,
 		.fs-slide-2 {
 
@@ -1701,7 +1701,7 @@
 	} // .animated-hero
 
 	.fw-slider-hero {
-		
+
 		.fw-slide-1,
 		.fw-slide-3 {
 
@@ -1791,9 +1791,9 @@
 	}
 
 	.calc-shipping {
-		
+
 		.calc-form {
-	
+
 			.form-group {
 				padding-left: 0;
 				padding-right: 0;
@@ -1845,10 +1845,10 @@
 
 	// Single Product
 	.prod_single_img_slider {
-		
+
 		.slick-dots {
 			display: none !important;
-		}	
+		}
 	}
 
 	.product-info {
@@ -1868,6 +1868,5 @@
 		}
 	}
 
-	
-} // @media (max-width: $screen-sm)
 
+} // @media (max-width: $screen-sm)
