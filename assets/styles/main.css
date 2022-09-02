@@ -267,6 +267,10 @@ background: #fdf5e6;
   background-color: #F8C73A;
 }
 
+.h-alt wow fadeIn{
+  font-weight: 500;
+}
+
 .dark-bg h1,
 .dark-bg .comingsoon .content-wrapper .content-inner .cs-timer .item .nbr-timer,
 .comingsoon .content-wrapper .content-inner .cs-timer .item .dark-bg .nbr-timer, .dark-bg h2,
@@ -302,7 +306,7 @@ background: #fdf5e6;
   background: #F4A031;
 }
 .dark-bg .subheading {
-  color: #777;
+  color: #666;
   font-weight: 400;
 }
 
@@ -619,7 +623,7 @@ font-weight: 600 !important;
   text-transform: uppercase;
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 300;
-  color: #999;
+  color: #666;
   letter-spacing: 2.5px;
 }
 
@@ -1078,7 +1082,7 @@ font-weight: 600 !important;
 
 .sec-heading-2 .subheading {
   font-size: 1.3em;
-  color: #999;
+  color: #63666b;
 }
 
 .sec-heading-top-m h1:first-child,
@@ -1290,7 +1294,7 @@ body, .testimonials-3col .t-item blockquote, .testimonials-3col .t-item .wrapper
   font-weight: 300;
   letter-spacing: 0.2px;
   line-height: 1.8em;
-  color: #777;
+  color: #666;
 }
 
 h1,
@@ -1591,11 +1595,11 @@ input[class="btn-ghost"]:after {
 .btn-text, .btn-text-light {
   background: none;
   border: 2px solid rgba(17, 17, 17, 0);
-  color: #777;
+  color: #666;
 }
 
 .btn-text:visited, .btn-text-light:visited {
-  color: #777;
+  color: #666;
   background: none;
 }
 
@@ -1712,7 +1716,7 @@ input[class="btn-ghost-light"]:hover {
   width: 42px;
   line-height: 1.9em;
   font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
-  color: #777;
+  color: #666;
 }
 
 .pagination li a i {
@@ -1980,11 +1984,11 @@ fieldset[disabled] .form-control:hover {
 }
 
 .breadcrumb li + li:before {
-  color: #777;
+  color: #666;
 }
 
 .breadcrumb .active {
-  color: #777;
+  color: #666;
 }
 
 /* ---- 4.2 Header/Page Title ---- */
@@ -2004,11 +2008,11 @@ fieldset[disabled] .form-control:hover {
   margin: 20px 0 0 0;
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 300;
-  color: #777;
+  color: #666;
 }
 
 .page-title .breadcrumb li a {
-  color: #777;
+  color: #666;
 }
 
 .page-title .breadcrumb li a:hover {
@@ -2037,7 +2041,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .pt-dark .breadcrumb .active {
-  color: #777;
+  color: #666;
 }
 
 /* ---- 4.4 Header/Page Title Sizes ---- */
@@ -2234,7 +2238,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .footer-widgets .about-widget .social-links li a {
-  color: #777;
+  color: #666;
 }
 
 .footer-widgets .about-widget .social-links li a:hover {
@@ -2815,7 +2819,7 @@ fieldset[disabled] .form-control:hover {
   padding: 0;
   float: right;
   font-size: 16px;
-  color: #777;
+  color: #666;
   border: none;
   background: none;
 }
@@ -2839,7 +2843,7 @@ fieldset[disabled] .form-control:hover {
   float: right;
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 400;
-  color: #777;
+  color: #666;
 }
 
 .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns {
@@ -3248,7 +3252,7 @@ fieldset[disabled] .form-control:hover {
   display: inline-block;
   margin-top: 30px;
   float: right;
-  color: #777;
+  color: #666;
   -webkit-transform: translateX(30px);
       -ms-transform: translateX(30px);
           transform: translateX(30px);
@@ -3348,7 +3352,7 @@ fieldset[disabled] .form-control:hover {
   border: 1px solid #f8f8f8;
   border-radius: 100px;
   background: #fff;
-  color: #777;
+  color: #666;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
   -webkit-transition: all 0.3s;
           transition: all 0.3s;
@@ -3474,7 +3478,7 @@ fieldset[disabled] .form-control:hover {
   height: auto;
   line-height: 0;
   font-size: 64px;
-  color: #777;
+  color: #666;
   -webkit-transition: color 0.7s;
           transition: color 0.7s;
 }
@@ -3632,7 +3636,7 @@ fieldset[disabled] .form-control:hover {
 
 .ft-boxed-hover ul li .ft-icon {
   font-size: 56px;
-  color: #777;
+  color: #666;
 }
 
 .ft-boxed-hover ul li .h-alt {
@@ -4172,7 +4176,7 @@ fieldset[disabled] .form-control:hover {
 .ft-img-left .ft-content .h-alt {
   margin: 0;
   padding-bottom: 45px;
-  color: #777;
+  color: #666;
   font-weight: 600;
 }
 
@@ -4598,7 +4602,7 @@ fieldset[disabled] .form-control:hover {
 
 .testimonials-3col .t-item blockquote footer cite, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite {
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
-  color: #777;
+  color: #666;
 }
 
 .testimonials-3col .t-item blockquote footer cite span, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite span, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite span, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite span, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite span {
@@ -5076,7 +5080,7 @@ fieldset[disabled] .form-control:hover {
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   font-size: .85em;
   letter-spacing: 2.5px;
-  color: #777;
+  color: #666;
 }
 
 .portfolio-filters li a:focus,
@@ -5939,7 +5943,7 @@ fieldset[disabled] .form-control:hover {
 .pfolio-single .project-testimonial {
   padding: 30px;
   font-size: 1.2em;
-  color: #777;
+  color: #666;
   background: #f4f4f4;
 }
 
@@ -5947,11 +5951,11 @@ fieldset[disabled] .form-control:hover {
   display: block;
   margin-bottom: 30px;
   font-size: 32px;
-  color: #777;
+  color: #666;
 }
 
 .pfolio-single .project-testimonial footer {
-  color: #777;
+  color: #666;
   line-height: 1.2;
 }
 
@@ -6304,7 +6308,7 @@ fieldset[disabled] .form-control:hover {
   margin-bottom: 0;
   padding-bottom: 20px;
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
-  color: #777;
+  color: #666;
 }
 
 .pricing-tables .p-table .p-items {
@@ -6723,7 +6727,7 @@ fieldset[disabled] .form-control:hover {
 .sidebar .recent-posts-widget .widget-item .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .sidebar .recent-posts-widget .widget-item p, .sidebar .recent-posts-widget .widget-item .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a, .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .sidebar .recent-posts-widget .widget-item a, .sidebar .recent-posts-widget .widget-item .landing-hero .heading-wrapper .cta-btn, .landing-hero .heading-wrapper .sidebar .recent-posts-widget .widget-item .cta-btn, .sidebar .recent-posts-widget .widget-item .shop-sidebar .filter-widget label, .shop-sidebar .filter-widget .sidebar .recent-posts-widget .widget-item label, .sidebar .recent-posts-widget .widget-item .shop-sidebar-vertical .filter-widget label, .shop-sidebar-vertical .filter-widget .sidebar .recent-posts-widget .widget-item label, .shop-sidebar .tags-widget .tag-list li .sidebar .recent-posts-widget .widget-item a, .shop-sidebar-vertical .tags-widget .tag-list li .sidebar .recent-posts-widget .widget-item a, .sidebar .recent-posts-widget .widget-item .checkout-table tbody tr td:first-child, .checkout-table tbody tr .sidebar .recent-posts-widget .widget-item td:first-child, .sidebar .recent-posts-widget .widget-item .prod-reviews .tp-review .tpr-name, .prod-reviews .tp-review .sidebar .recent-posts-widget .widget-item .tpr-name {
   margin-top: 0;
   margin-bottom: 0;
-  color: #777;
+  color: #666;
 }
 
 .sidebar .recent-posts-widget .widget-item span {
@@ -6745,7 +6749,7 @@ fieldset[disabled] .form-control:hover {
   margin-bottom: 5px;
   font-size: .9em;
   letter-spacing: .3px;
-  color: #777;
+  color: #666;
   border-bottom: 1px solid rgba(17, 17, 17, 0);
   -webkit-transition: all 0.3s;
           transition: all 0.3s;
@@ -6831,7 +6835,7 @@ fieldset[disabled] .form-control:hover {
 .sidebar .comments-widget .widget-item span .widget-comm-title {
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   letter-spacing: 1.5px;
-  color: #777;
+  color: #666;
 }
 
 /* ---- 18.6 Comments ---- */
@@ -7123,7 +7127,7 @@ form .input-error-2:focus {
   padding-right: 20px;
   height: 50px;
   font-size: 32px;
-  color: #777;
+  color: #666;
   float: left;
 }
 
@@ -7142,7 +7146,7 @@ form .input-error-2:focus {
   font-size: .8em;
   line-height: 1;
   letter-spacing: 1px;
-  color: #777;
+  color: #666;
 }
 
 .contact-2 form .alert {
@@ -7526,7 +7530,7 @@ form .input-error-2:focus {
 
 .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer {
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
-  color: #777;
+  color: #666;
 }
 
 .comingsoon .content-wrapper .content-inner form h5, .comingsoon .content-wrapper .content-inner form .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .comingsoon .content-wrapper .content-inner form .ft-heading, .comingsoon .content-wrapper .content-inner form .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .comingsoon .content-wrapper .content-inner form .tab-info, .comingsoon .content-wrapper .content-inner form .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .comingsoon .content-wrapper .content-inner form .widget-comm-title, .comingsoon .content-wrapper .content-inner form .cs-timer .item .title-timer, .comingsoon .content-wrapper .content-inner .cs-timer .item form .title-timer, .comingsoon .content-wrapper .content-inner form .shop-layout-options span, .shop-layout-options .comingsoon .content-wrapper .content-inner form span {
@@ -7667,7 +7671,7 @@ form .input-error-2:focus {
   margin-bottom: 75px;
   border-radius: 100px;
   font-size: 50px;
-  color: #777;
+  color: #666;
   background: #ececec;
 }
 
@@ -7723,7 +7727,7 @@ form .input-error-2:focus {
 .line-icons ul li span {
   display: block;
   font-size: 50px;
-  color: #777;
+  color: #666;
   -webkit-transition: color 0.5s;
           transition: color 0.5s;
 }
@@ -8320,7 +8324,7 @@ form .input-error-2:focus {
 }
 
 .agency-hero .hero-wrapper .hero-content .text-wrapper h4, .agency-hero .hero-wrapper .hero-content .text-wrapper .ft-tabs .tabs-list li a .tab-group .tab-heading, .ft-tabs .tabs-list li a .tab-group .agency-hero .hero-wrapper .hero-content .text-wrapper .tab-heading, .agency-hero .hero-wrapper .hero-content .text-wrapper .testimonials-3col .t-item blockquote footer cite, .testimonials-3col .t-item blockquote footer .agency-hero .hero-wrapper .hero-content .text-wrapper cite, .agency-hero .hero-wrapper .hero-content .text-wrapper .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .agency-hero .hero-wrapper .hero-content .text-wrapper cite, .agency-hero .hero-wrapper .hero-content .text-wrapper .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .agency-hero .hero-wrapper .hero-content .text-wrapper cite, .agency-hero .hero-wrapper .hero-content .text-wrapper .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .agency-hero .hero-wrapper .hero-content .text-wrapper cite, .agency-hero .hero-wrapper .hero-content .text-wrapper .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .agency-hero .hero-wrapper .hero-content .text-wrapper cite, .agency-hero .hero-wrapper .hero-content .text-wrapper .team-3col .t-item .t-info .t-role, .team-3col .t-item .t-info .agency-hero .hero-wrapper .hero-content .text-wrapper .t-role, .agency-hero .hero-wrapper .hero-content .text-wrapper .team-4col .t-item .t-info .t-role, .team-4col .t-item .t-info .agency-hero .hero-wrapper .hero-content .text-wrapper .t-role, .agency-hero .hero-wrapper .hero-content .text-wrapper .freelancer-about .t-item .t-info .t-role, .freelancer-about .t-item .t-info .agency-hero .hero-wrapper .hero-content .text-wrapper .t-role, .agency-hero .hero-wrapper .hero-content .text-wrapper .t-join .t-info .t-role, .t-join .t-info .agency-hero .hero-wrapper .hero-content .text-wrapper .t-role, .agency-hero .hero-wrapper .hero-content .text-wrapper .login-2 .bg-overlay .form-wrapper .form-content .cards-header, .login-2 .bg-overlay .form-wrapper .form-content .agency-hero .hero-wrapper .hero-content .text-wrapper .cards-header, .agency-hero .hero-wrapper .hero-content .text-wrapper .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead, .login-2 .bg-overlay .form-wrapper .social-signup .social-card .agency-hero .hero-wrapper .hero-content .text-wrapper .sc-lead {
-  color: #777;
+  color: #666;
 }
 
 .agency-hero .hero-wrapper .hero-content .text-wrapper p {
@@ -8593,6 +8597,8 @@ form .input-error-2:focus {
 
 .app-hero .hero-text {
   padding-top: 50px;
+  font-weight: normal;
+
 }
 
 .app-hero .hero-text .hero-lead {
@@ -9597,7 +9603,7 @@ form .input-error-2:focus {
 .shop-sidebar .shop-widget .cart-item .cp-name, .shop-sidebar-vertical .shop-widget .cart-item .cp-name {
   padding-top: 8px;
   letter-spacing: 1px;
-  color: #777;
+  color: #666;
 }
 
 .shop-sidebar .shop-widget .cart-item .cp-name:hover, .shop-sidebar-vertical .shop-widget .cart-item .cp-name:hover {
@@ -9612,7 +9618,7 @@ form .input-error-2:focus {
 
 .shop-sidebar .shop-widget .cart-item .cart-remove-btn, .shop-sidebar-vertical .shop-widget .cart-item .cart-remove-btn {
   float: right;
-  color: #777;
+  color: #666;
 }
 
 .shop-sidebar .shop-widget .cart-item .cart-remove-btn:hover, .shop-sidebar-vertical .shop-widget .cart-item .cart-remove-btn:hover {
@@ -9685,7 +9691,7 @@ form .input-error-2:focus {
   margin-bottom: 5px;
   font-size: .9em;
   letter-spacing: .3px;
-  color: #777;
+  color: #666;
   border-bottom: 1px solid rgba(17, 17, 17, 0);
   -webkit-transition: all 0.3s;
           transition: all 0.3s;
@@ -9998,7 +10004,7 @@ form .input-error-2:focus {
 }
 
 .product-meta li a {
-  color: #777;
+  color: #666;
   text-decoration: underline;
 }
 
@@ -10085,7 +10091,7 @@ form .input-error-2:focus {
   font-size: 12px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #777;
+  color: #666;
 }
 
 .prod-name {
@@ -10120,7 +10126,7 @@ form .input-error-2:focus {
 .prod-rating li:last-child {
   padding-left: 10px;
   font-size: 12px;
-  color: #777;
+  color: #666;
 }
 
 .prod-rating li a {
