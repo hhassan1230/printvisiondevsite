@@ -422,33 +422,48 @@
 
 
         <!-- ========== Video Background Section ========== -->
+<!-- OLD VIDEO LAYOUT -->
+        <!-- <div class="video-bg-section">
 
-        <div class="video-bg-section">
-
-          <!-- Video Background -->
+          Video Background
           <div id="section-video" class="player"
                data-property="{videoURL:'https://youtu.be/UIBTBQg0QaQ',containment:'.video-bg-section',autoPlay:true, mute:true, startAt:71, stopAt:300, opacity:1}">
           </div>
 
-          <!-- Video Link -->
+            Video Link
           <div class="video-sec-content">
             <h3 class="cta-lead h-alt wow fadeIn" data-wow-delay=".1s" data-wow-duration="1s">Meet the team</h3>
             <a href="https://www.youtube.com/embed/UIBTBQg0QaQ" class="play-btn popup-video">
 
-            <!-- <a src="./Video_1.MOV" class="play-btn popup-video"> -->
-
-            <!-- <iframe class="play-btn popup-video" src="https://www.youtube.com/embed/vUpVqH6C-ko" allowfullscreen=""></iframe> -->
-
-              <!-- <iframe width="606" height="455" src="https://www.youtube.com/embed/MF46EPlngic" allowfullscreen=""></iframe> -->
-
-
-
               <span class="play-icon linea-music-play-button"></span>
               <h5>Play video</h5>
             </a>
-          </div><!-- / .video-sec-content -->
-        </div><!-- / .video-bg-section -->
+          </div>
+           END .video-sec-content
+        </div>
+          END .video-bg-section -->
 
+
+<!-- NEW VIDEO LAYOUT -->
+
+<div id="about" class="gray-bg">
+          <section class="container ft-iframe-video">
+            <div class="row">
+
+              <header class="col-md-offset-1 col-md-10 sec-heading-2">
+                <h2 style="padding-bottom:30px; padding-top: 20px; margin:0px;">Meet the team</h2>
+              </header>
+
+              <div class="col-md-offset-1 col-md-10 ws-m">
+                <!-- 16:9 aspect ratio -->
+                <div class="embed-responsive embed-responsive-16by9 wow fadeIn" data-wow-duration="2s" data-wow-delay=".1s" style="visibility: visible; animation-duration: 2s; animation-delay: 0.1s; animation-name: fadeIn;">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UIBTBQg0QaQ"></iframe>
+                </div>
+              </div><!-- / .col-md-10 -->
+
+            </div><!-- / .row -->
+          </section><!-- / .container -->
+        </div>
 
         <!-- ========== Feature Image + Text ========== -->
 
