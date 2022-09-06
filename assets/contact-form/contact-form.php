@@ -2,8 +2,6 @@
 
 if(isset($_POST['email'])) {
 
-
-
     // ADD YOUR EMAIL WHERE YOU WANT TO RECIEVE THE MESSAGES
 
     $email_to = "info.mibkg@gmail.com";
@@ -38,7 +36,7 @@ if(isset($_POST['email'])) {
 
         !isset($_POST['email']) ||
 
-        // !isset($_POST['phone']) || // un-commet for required
+        // !isset($_POST['phone']) || // un-comment for required
 
         !isset($_POST['message'])) {
 
@@ -58,13 +56,13 @@ if(isset($_POST['email'])) {
 
 
 
-    $error_message = "";
+    $error_message = "We are sorry, but there appears to be a problem with the form you submitted.";
 
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
 
   if(!preg_match($email_exp,$email_from)) {
 
-    $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
+    $error_message .= 'The Email Address you entered does not appear to be valid. Try removing special characters.<br />';
 
   }
 
@@ -72,7 +70,7 @@ if(isset($_POST['email'])) {
 
   if(!preg_match($string_exp,$name)) {
 
-    $error_message .= 'The First Name you entered does not appear to be valid.<br />';
+    $error_message .= 'The First Name you entered does contains unexpected parameters. Try removing special characters.<br />';
 
   }
 
