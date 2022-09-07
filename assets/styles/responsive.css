@@ -788,7 +788,7 @@
   }
 }
 
-/* ---- Contact ---- */
+/* ---- old Contact ---- */
 @media (max-width: 1260px) {
   .contact-1,
   .contact-2 {
@@ -846,6 +846,107 @@
     padding-right: 0;
   }
 }
+
+
+/* mailchimp contact form */
+
+@media (max-width: 912px) {
+  object{
+    width: 615px;
+    height: 1060px;
+  }
+
+  .section.sec-heading-2 {
+    /* padding-top: 50px; */
+    padding-left: 0px;
+    margin-left: 30px;
+  }
+
+}
+
+@media (max-width: 540px) {
+  object{
+    width: 530px;
+    height: 1060px;
+  }
+
+  .section.sec-heading-2 {
+    padding-left: 0px;
+    margin-left: -12px;
+  }
+}
+
+
+@media (max-width: 414px) {
+  object{
+    width: 425px;
+    height: 1060px;
+  }
+  .section.sec-heading-2 {
+      padding-left: 0px;
+      margin-left: -21px;
+  }
+}
+
+@media (max-width: 393px) {
+  .section.sec-heading-2 {
+      padding-left: 0px;
+      margin-left: -23px;
+  }
+
+  object{
+    width: 405px;
+    height: 1060px;
+  }
+}
+
+
+@media (max-width: 375px) {
+
+  object{
+    width: 364px;
+    height: 1060px;
+  }
+  .section.sec-heading-2 {
+      /* padding-top: 50px; */
+      padding-left: 0px;
+      margin-left: -12px;
+  }
+}
+
+@media (max-width: 360px) {
+body{
+  margin-right: 1px;
+  margin-left: 9px;
+}
+
+  .section.sec-heading-2 {
+      padding-left: 0px;
+      margin-left: -15px;
+  }
+
+  object{
+    width: 348px;
+    height: 1060px;
+  }
+
+}
+
+  @media (max-width: 280px) {
+
+    .section.sec-heading-2 {
+        padding-left: 0px;
+        margin-left: -16px;
+    }
+    object{
+      width: 282px;
+      height: 1060px;
+    }
+
+}
+
+
+
 
 /* ---- Login ---- */
 @media (max-width: 992px) {
@@ -1241,7 +1342,31 @@
 
 
 /* Galaxy fold resize */
+
+
 @media (max-width: 280px) {
+
+  /* .preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111;
+    z-index: 9999;
+  }
+
+  .preloader img {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+  } */
 
   .app-hero {
     margin-top: 20px;
@@ -1258,18 +1383,14 @@
   }
 
   body{
-  margin-left: 15px;
-  width: 113%;
+    margin-left: 4px;
+    width: 100%;
   }
 
   /* photo resize for the 330x615 */
   .col-md-offset-2 img{
     width: 100%;
     object-fit: contain;
-    /* margin-right: 10px; */
-    /* display:block;
-    margin-left:auto;
-    margin-right:auto; */
   }
 
 }

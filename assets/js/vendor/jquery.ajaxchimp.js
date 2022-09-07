@@ -132,12 +132,12 @@ Author: Siddharth Doshi
     Your info from MailChimp goes bellow
 -------------------------------------------------- */
 (function ($) {
-    
+
     "use strict";
 
     $('.mc-ajax').ajaxChimp({
         callback: mailchimpCallback,
-        // Replace this with your own url, id and user code (see documentation). 
+        // Replace this with your own url, id and user code (see documentation).
         url: "https://viktorandonov.us8.list-manage.com/subscribe/post?u=0d1613dc78dfba6e3ad02aaa5&amp;id=25d4404c02" 
     });
 
