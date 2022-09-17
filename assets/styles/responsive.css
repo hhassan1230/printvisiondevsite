@@ -906,6 +906,7 @@
 /* Galaxy S8 */
 @media (max-width: 360px) {
 body{
+  /* width: auto; */
   margin-right: 1px;
   margin-left: 9px;
   }
@@ -917,30 +918,34 @@ body{
     margin-right: -10px;
   }
   object{
-    width: 348px;
+    width: 357px;
     padding-top: 33px;
     padding-top: 0;
   }
 
   .modal-content{
     width: 98%;
-    padding: 1px 19px;
+    /* padding: 1px 19px; */
 
   }
   .close{
-    padding-right: 63px;
+    padding-right: 5px;
+  }
+
+  /* photo resize for the 330x615 image */
+  .col-md-offset-2 img{
+    width: 100%;
+    object-fit: contain;
   }
 }
 
-
-
 /* ---- Login ---- */
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .login-1 .form-group {
     padding-left: 0;
     padding-right: 0;
   }
-}
+} */
 
 @media (max-width: 600px) {
   .login-1 .panel-group .panel .panel-heading {
@@ -1378,7 +1383,7 @@ body{
       padding-left: 0px;
       margin-left: -16px;
   }
-  /* photo resize for the 330x615 */
+  /* photo resize for the 330x615 image */
   .col-md-offset-2 img{
     width: 100%;
     object-fit: contain;
@@ -1415,7 +1420,7 @@ body{
     width: 100%;
   }
   body{
-   width: 100%;
+   width: auto;
   }
 
   .navbar-header{
