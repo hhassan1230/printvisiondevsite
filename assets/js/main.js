@@ -888,3 +888,30 @@ function validateField ( field ) {
 	}
 
 });
+
+// Order online odal
+// Get the modal
+var modal = document.getElementById("order-modal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("orderButton");
+
+// Get the <span>, (x) element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// If user clicks on the order online button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// If user clicks on (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// If user clicks outside modal, close the modal
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
