@@ -831,7 +831,8 @@
 /* mailchimp contact form */
 @media (max-width: 912px) {
   object{
-    width: 615px;
+    /* width: 615px; */
+    width: 534px;
     height: 1060px;
   }
   .section.sec-heading-2 {
@@ -842,9 +843,8 @@
 }
 
 @media (max-width: 414px) {
-  object {
+  object{
       width: 410px;
-      height: 1060px;
       padding-right: 0px;
   }
   .section.sec-heading-2 {
@@ -861,7 +861,6 @@
 @media (max-width: 393px) {
   object{
     width: 393px;
-    height: 1060px;
   }
   .section.sec-heading-2 {
       padding-left: 0px;
@@ -871,9 +870,8 @@
 
 /* iphone 12 Pro */
 @media (max-width: 390px) {
-  object {
+  object{
       width: 390px;
-      height: 1060px;
   }
   .section.sec-heading-2 {
       padding-left: 0px;
@@ -894,7 +892,7 @@
       border: 1px solid #888;
       width: 100%;
     }
-  object {
+    object{
       width: 375px;
       /* margin-left: 5px; */
 
@@ -920,7 +918,6 @@ body{
   }
   object{
     width: 348px;
-    height: 1060px;
     padding-top: 33px;
     padding-top: 0;
   }
@@ -1329,6 +1326,20 @@ body{
     }
 }
 
+/* Surface duo */
+@media (max-width: 540px){
+  /* object{
+    width: 530px;
+  } */
+  .modal-content {
+    width: 98%;
+  }
+  .section.sec-heading-2 {
+    padding-left: 0px;
+    margin-left: -12px;
+  }
+}
+
 /* Galaxy fold */
 @media (max-width: 280px) {
   html{
@@ -1418,21 +1429,6 @@ body{
     }
   .close{
     margin-right: 8px;
-  }
-}
-
-/* Surface duo */
-@media (max-width: 540px){
-  object{
-    width: 530px;
-    height: 1060px;
-  }
-  .modal-content {
-    width: 98%;
-  }
-  .section.sec-heading-2 {
-    padding-left: 0px;
-    margin-left: -12px;
   }
 }
 
