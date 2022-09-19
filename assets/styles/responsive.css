@@ -53,9 +53,9 @@
   .mb-xs-50 {
     margin-bottom: 50px;
   }
-  .mb-xs-100 {
+  /* .mb-xs-100 {
     margin-bottom: 100px;
-  }
+  } */
 }
 
 /* ---- Navigation ---- */
@@ -140,6 +140,30 @@
   }
 }
 
+/* nav bar & features */
+@media (max-width: 1280px) {
+    .navbar-fw .navbar-header {
+        margin-left: 13px;
+        width: 15%;
+    }
+  }
+
+  @media (max-width: 1024px){
+    .navbar-fw .navbar-header {
+        margin-left: -42px;
+        width: 104%;
+    }
+    /* .mb-sm-100 {
+        margin-bottom: 0px;
+    } */
+  }
+
+  @media (min-width: 1024px){
+    .mb-sm-100 {
+        margin-bottom: 0px;
+    }
+  }
+
 /* nav bar for responive */
 @media (max-width: 1000px) {
   .navbar-brand img{
@@ -154,6 +178,11 @@
     margin-left: 40%;
 
   }
+
+  .navbar-fw .navbar-header {
+    margin-left: 0px;
+    width: 96%;
+  }
 }
 
 /* nav bar for ipad */
@@ -164,11 +193,22 @@
   }
 }
 
+
 @media (max-width: 770px) {
   .navbar-brand img{
     margin-left: -12%;
 
   }
+}
+
+
+@media (max-width: 540px) {
+
+  .navbar-fw .navbar-header {
+    margin-left: -32px;
+    width: 108%;
+  }
+
 }
 
 /* nav bar for smaller phones */
@@ -178,7 +218,38 @@
   }
 }
 
+@media (max-width: 414px) {
+  .navbar-fw .navbar-header {
+    width: 108%;
+  }
+  .navbar-brand img {
+    margin-left: -9%;
+  }
 
+  .navbar .navbar-header .navbar-brand {
+    margin-left: 15px;
+  }
+  /* .mb-sm-100 {
+    margin-bottom: 100px;
+    } */
+}
+
+/* Galaxy S20 Ultra */
+@media (max-width: 412px){
+  html{
+    width: 100%;
+  }
+  body{
+   width: auto;
+  }
+  .navbar-fw .navbar-header {
+    margin-left: -32px;
+    width: 109%;
+    }
+  .navbar-brand img{
+    margin-top: -5px;
+  }
+}
 
 
 /* ---- Headers ---- */
@@ -431,7 +502,7 @@
 
 @media (max-width: 415px) {
 
-/* removes stair-case CSS for top white section in 'Features' */
+/* removes staircase CSS for top white section in 'Features' */
   .ft-x .ft-item span, .ft-y .ft-item span, .ft-x .ft-item i, .ft-y .ft-item i {
     margin: 0;
   }
