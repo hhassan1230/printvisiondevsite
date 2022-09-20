@@ -139,13 +139,16 @@
       padding-left: 0px;
       margin-left: -23px;
   }
+  .fadeInRight .ft-item h5 {
+    padding-left: 15px;
+  }
 }
 
 /* iphone 12 Pro */
 @media (max-width: 390px) {
   .navbar-fw .navbar-header {
-    margin-left: -1px;
-    width: 105%;
+    margin-left: -33px;
+    width: 112%;
 }
   .modal-content object {
     width: 383px;
@@ -162,6 +165,7 @@
   .close {
     margin-right: -17px;
   }
+
 }
 
 
@@ -197,6 +201,13 @@
       padding-left: 0px;
       margin-left: -12px;
   }
+  .fadeInRight .ft-item h5 {
+    padding-left: 7px;
+  }
+  section.container.ft-iframe-video {
+      padding-bottom: 100px;
+      padding-top: 100px;
+  }
 }
 
 /* Galaxy S8 */
@@ -205,8 +216,8 @@
     width: 352px;
   }
   body{
-    margin-right: 0px;
-    margin-left: 4px;
+    margin-right: -2px;
+    margin-left: 6px;
   }
   .section.sec-heading-2 {
       padding-left: 0px;
@@ -242,6 +253,10 @@
     margin-top: 5px;
   }
 
+  .ft-x .right-align .ft-content, .ft-y .right-align .ft-content {
+    width: 55%;
+}
+
   /* photo resize for the 330x615 image */
   .col-md-offset-2 img{
     width: 100%;
@@ -260,7 +275,7 @@
     max-width: 280px;
   }
   body{
-    margin-left: 6px;
+    margin-left: -1px;
     width: 100%;
 
   }
@@ -298,7 +313,7 @@
     margin-top: 9px;
   }
   .navbar .navbar-header .navbar-brand {
-    margin-left: 8px;
+    margin-left: 38px;
     margin-top: -10px;
 }
  .navbar-fw .navbar-header{
@@ -306,7 +321,7 @@
   }
 
   .navbar .navbar-header .navbar-toggle{
-    margin-right: 2px;
+    margin-right: -19px;
   }
 
   .section.sec-heading-2 {

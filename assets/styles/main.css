@@ -352,8 +352,18 @@ font-weight: 600 !important;
 }
 
 .section {
-  padding-top: 160px;
+  padding-top: 60px;
   padding-bottom: 100px;
+}
+
+.section-2{
+  padding-top: 75px;
+
+}
+
+.sec-heading-3{
+  margin-bottom: 0px;
+    text-align: center;
 }
 
 .section-heading h1,
@@ -3519,6 +3529,8 @@ fieldset[disabled] .form-control:hover {
 /* ---- 9.5 Feature - Horizontal Aligned ---- */
 .ft-x .ft-item, .ft-y .ft-item {
   text-align: left;
+  margin-bottom: 21px;
+
 }
 
 .ft-x .ft-item h5, .ft-y .ft-item h5, .ft-x .ft-item .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .ft-x .ft-item .ft-heading, .ft-y .ft-item .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .ft-y .ft-item .ft-heading, .ft-x .ft-item .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .ft-x .ft-item .tab-info, .ft-y .ft-item .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .ft-y .ft-item .tab-info, .ft-x .ft-item .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .ft-x .ft-item .widget-comm-title, .ft-y .ft-item .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .ft-y .ft-item .widget-comm-title, .ft-x .ft-item .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer, .comingsoon .content-wrapper .content-inner .cs-timer .item .ft-x .ft-item .title-timer, .ft-y .ft-item .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer, .comingsoon .content-wrapper .content-inner .cs-timer .item .ft-y .ft-item .title-timer, .ft-x .ft-item .shop-layout-options span, .shop-layout-options .ft-x .ft-item span, .ft-y .ft-item .shop-layout-options span, .shop-layout-options .ft-y .ft-item span {
@@ -10295,9 +10307,9 @@ form .input-error-2:focus {
 /*# sourceMappingURL=main.css.map */
 
 /* Features - top section */
-.col-lg-offset-1.col-lg-4.ft-x.ws-m {
+/* .col-lg-offset-1.col-lg-4.ft-x.ws-m {
     margin-top: 88px;
-}
+} */
 
 /* .col-md-offset-1 .col-md-10 .sec-heading-2 .ws-m h2{
   /* padding: 0 0 0 0; */
@@ -10312,7 +10324,6 @@ form .input-error-2:focus {
 }
 
 /* Mailchimp contact form */
-
 object{
   width: 100%;
   height: 1155px;
