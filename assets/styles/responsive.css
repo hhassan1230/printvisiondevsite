@@ -24,15 +24,18 @@
   }
 }
 
+@media (min-width: 1260px) {
+  .mb-sm-100 {
+    margin-bottom: 100px;
+  }
+}
+
 @media (max-width: 1260px) {
   .mb-sm-30 {
     margin-bottom: 30px;
   }
   .mb-sm-50 {
     margin-bottom: 50px;
-  }
-  .mb-sm-100 {
-    margin-bottom: 100px;
   }
   .mb-sm-160 {
     margin-bottom: 160px;
@@ -53,9 +56,6 @@
   .mb-xs-50 {
     margin-bottom: 50px;
   }
-  /* .mb-xs-100 {
-    margin-bottom: 100px;
-  } */
 }
 
 /* ---- Navigation ---- */
@@ -153,9 +153,6 @@
         margin-left: -42px;
         width: 104%;
     }
-    /* .mb-sm-100 {
-        margin-bottom: 0px;
-    } */
   }
 
   @media (min-width: 1024px){
@@ -164,11 +161,26 @@
     }
   }
 
+  /* @media (min-width: 1300px) {
+    .ft-x .ft-item, .ft-y .ft-item {
+    display: inline-block;
+}
+    .align-left {
+      height: 90px;
+  }
+    .ws-m {
+      padding-bottom: 0px;
+    }
+} */
+
 /* nav bar for responive */
 @media (max-width: 1000px) {
   .navbar-brand img{
     margin-left: -5%;
   }
+  /* .ws-m {
+    padding-bottom: 0px;
+  } */
 
 }
 
@@ -202,15 +214,6 @@
 }
 
 
-@media (max-width: 540px) {
-
-  .navbar-fw .navbar-header {
-    margin-left: -32px;
-    width: 108%;
-  }
-
-}
-
 /* nav bar for smaller phones */
 @media (max-width: 420px) {
   .navbar-logo-dark{
@@ -219,38 +222,22 @@
 }
 
 @media (max-width: 414px) {
-  .navbar-fw .navbar-header {
-    width: 108%;
-  }
-  .navbar-brand img {
-    margin-left: -9%;
-  }
-
-  .navbar .navbar-header .navbar-brand {
-    margin-left: 15px;
-  }
-  /* .mb-sm-100 {
-    margin-bottom: 100px;
-    } */
-}
-
-/* Galaxy S20 Ultra */
-@media (max-width: 412px){
-  html{
-    width: 100%;
-  }
-  body{
-   width: auto;
-  }
-  .navbar-fw .navbar-header {
-    margin-left: -32px;
-    width: 109%;
+    .navbar-fw .navbar-header {
+      width: 108%;
     }
-  .navbar-brand img{
-    margin-top: -5px;
-  }
+    .align-left {
+      height: 90px;
+    }
+    .navbar-brand img {
+      margin-left: -9%;
+    }
+    .navbar .navbar-header .navbar-brand {
+      margin-left: 15px;
+    }
+    .fadeInRight .ft-item h5 {
+      padding-left: 25px;
+    }
 }
-
 
 /* ---- Headers ---- */
 @media (max-width: 770px) {
@@ -447,6 +434,170 @@
   }
 }
 
+
+/* @media (max-width: 800px) {
+  .ft-x .right-align .ft-icon, .ft-y .right-align .ft-icon {
+    text-align: left;
+    margin-bottom: 21px;
+  }
+  .mb-sm-100 {
+    margin-bottom: 100px;
+}
+  h5.align-rt-text {
+    display: 0;
+    text-align: left;
+    width: 59%;
+  }
+
+} */
+
+/* Features icons */
+@media (min-width: 820px) {
+  .align-left {
+    float: left;
+    height: 160px;
+    margin-left: 7%;
+  }
+  .ws-m {
+    padding-bottom: 0px;
+  }
+
+  h5.align-rt-text {
+    display: inline-block;
+    text-align: left;
+    width: 59%;
+  }
+  .center-block {
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+  img.ft-img.img-responsive.wow.fadeInLeft {
+      padding-left: 10%;
+      padding-right: 10%;
+  }
+  h5.h-alt {
+      text-align: center;
+  }
+  h3 {
+      text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .align-left {
+    float: left;
+    height: 90px;
+    display: inline-block;
+    margin-left: 6%;
+  }
+  .ft-x .right-align .ft-icon, .ft-y .right-align .ft-icon {
+    float: right;
+    height: 90px;
+  }
+  .ft-x .ft-item, .ft-y .ft-item {
+    text-align: left;
+    margin-bottom: 90px;
+}
+  h5.align-rt-text {
+    display: inline-block;
+    text-align: left;
+    width: 59%;
+  }
+  .center-block {
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+  img.ft-img.img-responsive.wow.fadeInLeft {
+      padding-left: 10%;
+      padding-right: 10%;
+  }
+  h5.h-alt {
+      text-align: center;
+  }
+  h3 {
+      text-align: center;
+  }
+  .ws-m {
+    padding-bottom: 0px;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .navbar-fw .navbar-header {
+    margin-left: -32px;
+    width: 108%;
+  }
+    .center-block {
+      margin-top: -15px;
+      margin-bottom: 50px;
+  }
+  .align-left {
+    float: left;
+    height: 90px;
+    display: block;
+    display: inline-block;
+    margin-left: 6%;
+  }
+
+
+  h5.align-rt-text {
+    display: inline-block;
+    text-align: left;
+    width: 59%;
+  }
+
+  h5.h-alt {
+      text-align: center;
+  }
+
+  h3 {
+      text-align: center;
+  }
+
+  /* .ws-m {
+    padding-bottom: 0px;
+  } */
+
+  img.ft-img.img-responsive.wow.fadeInLeft {
+      padding-left: 10%;
+      padding-right: 10%;
+  }
+  /* h5.h-alt {
+      text-align: center;
+  }
+  h3 {
+      text-align: center;
+  } */
+}
+
+
+
+/* Galaxy S20 Ultra */
+@media (max-width: 412px){
+  html{
+    width: 100%;
+  }
+  body{
+   width: auto;
+  }
+  /* .align-left {
+      height: 90px;
+  } */
+  .navbar-fw .navbar-header {
+    margin-left: -32px;
+    width: 109%;
+    }
+  .navbar-brand img{
+    margin-top: -5px;
+  }
+  /* .fadeInRight .ft-item h5{
+    padding-left: 25px;
+  } */
+}
+
 @media (max-width: 770px) {
   .ft-boxed-hover ul li .hover-content {
     padding: 20px;
@@ -496,19 +647,31 @@
   }
 
 .fadeInRight .ws-m {
-    padding-bottom: 45px;
+  padding-bottom: 20px;
   }
+
+
+  .center-block {
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+
+img.ft-img.img-responsive.wow.fadeInLeft {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+h5.h-alt {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
 }
 
 @media (max-width: 415px) {
-
 /* removes staircase CSS for top white section in 'Features' */
   .ft-x .ft-item span, .ft-y .ft-item span, .ft-x .ft-item i, .ft-y .ft-item i {
     margin: 0;
-  }
-
-  .fadeInRight .ft-item h5{
-    padding-left: 115px;
   }
 
 
@@ -541,6 +704,19 @@
   .cta-newsletter .cta-wrapper input[type="email"] {
     font-size: 1.7em;
   }
+}
+
+@media (max-width: 280px) {
+  /* Features icons */
+    .align-left {
+        margin-left: -12%;
+    }
+    .fadeInRight .ft-item h5 {
+      padding-left: 30px;
+    }
+    .ft-x .right-align .ft-content, .ft-y .right-align .ft-content {
+      width: 50%;
+    }
 }
 
 /* ---- Counters ---- */
