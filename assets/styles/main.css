@@ -363,7 +363,16 @@ font-weight: 600 !important;
 
 .sec-heading-3{
   margin-bottom: 0px;
-    text-align: center;
+  text-align: center;
+}
+.contact-4{
+  text-align: justify;
+  display: flex;
+  justify-content:center;
+  padding-left: 35px;
+}
+.col-md-offset-1.col-md-5.ft-content.wow.fadeIn {
+    margin-left: 0;
 }
 
 .section-heading h1,
@@ -2999,7 +3008,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .navbar-inverse .navbar-nav li a {
-  color: #c2103c;
+  color: #9d2933;
 }
 
 .navbar-inverse .navbar-nav li a:hover {
