@@ -161,26 +161,13 @@
     }
   }
 
-  /* @media (min-width: 1300px) {
-    .ft-x .ft-item, .ft-y .ft-item {
-    display: inline-block;
-}
-    .align-left {
-      height: 90px;
-  }
-    .ws-m {
-      padding-bottom: 0px;
-    }
-} */
 
 /* nav bar for responive */
 @media (max-width: 1000px) {
   .navbar-brand img{
     margin-left: -5%;
   }
-  /* .ws-m {
-    padding-bottom: 0px;
-  } */
+
 
 }
 
@@ -206,6 +193,7 @@
 }
 
 
+/* ipad mini */
 @media (max-width: 770px) {
   .navbar-brand img{
     margin-left: -12%;
@@ -240,6 +228,8 @@
 }
 
 /* ---- Headers ---- */
+
+/* ipad mini */
 @media (max-width: 770px) {
   .page-title {
     padding-right: 35px;
@@ -278,6 +268,8 @@
   }
 }
 
+
+/* ipad mini */
 @media (max-width: 770px) {
   .copyright {
     text-align: center;
@@ -435,22 +427,6 @@
 }
 
 
-/* @media (max-width: 800px) {
-  .ft-x .right-align .ft-icon, .ft-y .right-align .ft-icon {
-    text-align: left;
-    margin-bottom: 21px;
-  }
-  .mb-sm-100 {
-    margin-bottom: 100px;
-}
-  h5.align-rt-text {
-    display: 0;
-    text-align: left;
-    width: 59%;
-  }
-
-} */
-
 /* Features icons */
 @media (min-width: 820px) {
   .align-left {
@@ -557,20 +533,12 @@
       text-align: center;
   }
 
-  /* .ws-m {
-    padding-bottom: 0px;
-  } */
+
 
   img.ft-img.img-responsive.wow.fadeInLeft {
       padding-left: 10%;
       padding-right: 10%;
   }
-  /* h5.h-alt {
-      text-align: center;
-  }
-  h3 {
-      text-align: center;
-  } */
 }
 
 
@@ -583,9 +551,7 @@
   body{
    width: auto;
   }
-  /* .align-left {
-      height: 90px;
-  } */
+
   .navbar-fw .navbar-header {
     margin-left: -32px;
     width: 109%;
@@ -593,11 +559,10 @@
   .navbar-brand img{
     margin-top: -5px;
   }
-  /* .fadeInRight .ft-item h5{
-    padding-left: 25px;
-  } */
 }
 
+
+/* ipad mini */
 @media (max-width: 770px) {
   .ft-boxed-hover ul li .hover-content {
     padding: 20px;
@@ -690,6 +655,8 @@ h3 {
   }
 }
 
+
+/* ipad mini */
 @media (max-width: 770px) {
   .cta-newsletter .cta-wrapper input[type="email"] {
     width: 85%;
@@ -739,6 +706,7 @@ h3 {
   }
 }
 
+/* ipad mini */
 @media (max-width: 770px) {
   .circles-counters .circles-wrapper {
     margin-left: 35px;
@@ -1055,6 +1023,7 @@ h3 {
   }
 }
 
+/* ipad mini */
 @media (max-width: 770px) {
   .contact-1 .contact-wrapper .contact-info-wrapper {
     padding-left: 35px;
@@ -1228,6 +1197,8 @@ h3 {
   }
 }
 
+
+/* ipad mini */
 @media (max-width: 770px) {
   .main-demo-hero .hero-content-wrapper .hero-content .hero-lead,
   .fs-video-hero .hero-content-wrapper .hero-content .hero-lead,
