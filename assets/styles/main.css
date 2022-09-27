@@ -10313,19 +10313,6 @@ form .input-error-2:focus {
   background: #f8f8f8;
 }
 
-/*# sourceMappingURL=main.css.map */
-
-/* Features - top section */
-/* .col-lg-offset-1.col-lg-4.ft-x.ws-m {
-    margin-top: 88px;
-} */
-
-/* .col-md-offset-1 .col-md-10 .sec-heading-2 .ws-m h2{
-  /* padding: 0 0 0 0; */
-  /* padding-bottom: 0; */
-/* }  */
-
-
 /* Location section, additinoal */
 .info-center {
     display: flex;
@@ -10341,9 +10328,6 @@ object{
     padding-top: 50px;
 }
 
-/* .mc-contact{
-  padding-top: 60px;
-} */
 
 .section.sec-heading-2 {
     padding-top: 50px;
@@ -10392,3 +10376,5 @@ object{
   text-decoration: none;
   cursor: pointer;
 }
+
+/*# sourceMappingURL=main.css.map */
